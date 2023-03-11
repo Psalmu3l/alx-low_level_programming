@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include <string.h>
-
-int _strlen(char *s)
-{
-	return strlen(s);
-}
+#include <string.h> 
+  
+int _putchar(char c) 
+{ 
+ return putchar(c); 
+} 
 
